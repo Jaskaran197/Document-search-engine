@@ -1,18 +1,7 @@
 # Document-search-engine
 Codebase for document search engine in python to search through PDF documents. More file types will be supported later
 
-search_engine_project/
-|-- pdf_parser.py
-|-- search_engine.py
-|-- data/
-|   |-- pdf_documents/
-|       |-- document1.pdf
-|       |-- document2.pdf
-|-- requirements.txt
-|-- README.md
-
-
-Application architecture:
+## Application architecture:
 
 Steps:
 
@@ -24,7 +13,6 @@ Write a function to iterate through the PDF files in a directory, extract text, 
 2. Create a DataFrame:
 Use a library like Pandas to create a DataFrame with columns for filenames and text content.
 
-
 3. Text Preprocessing:
 Preprocess the text data by converting it to lowercase, removing stop words, punctuation, and any other noise.
 
@@ -35,7 +23,13 @@ Build a reverse index from the preprocessed text. This involves creating a dicti
 Accept user input for queries.
 Preprocess the user's query similarly to the document text (lowercasing, removing stop words, etc.).
 
-
 6. Search Engine Logic:
 Search through the reverse index for the words in the user's query.
 Return relevant documents based on the search results.
+
+
+Future steps:
+
+1. Autosuggestions
+2. GUI web interface
+2. Add support for Word, PPT files.
