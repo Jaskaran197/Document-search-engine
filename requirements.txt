@@ -4,3 +4,4 @@ matplolib
 pdfminer
 pypdf2
 nltk
+streamlit

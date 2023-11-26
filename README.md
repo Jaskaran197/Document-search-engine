@@ -3,6 +3,8 @@ Codebase for document search engine in python to search through PDF documents. M
 
 Entry point - main.py
 
+![Alt text](image.png)
+
 ## Application architecture:
 
 Steps:
@@ -32,5 +34,5 @@ Return relevant documents based on the search results.
 Future steps:
 
 1. Autosuggestions
-2. GUI web interface
+2. <s>GUI web interface</s> 
 2. Add support for Word, PPT files.
