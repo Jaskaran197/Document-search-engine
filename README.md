@@ -1,12 +1,13 @@
 # Document-search-engine
 Codebase for document search engine in python to search through PDF documents. More file types will be supported later
 
+Entry point - main.py
+
 ## Application architecture:
 
 Steps:
 
 1. PDF Parsing:
-
 Use a PDF parsing library to extract text from PDF files. PyPDF2 and pdfminer
 Write a function to iterate through the PDF files in a directory, extract text, and store it along with the filename.
 

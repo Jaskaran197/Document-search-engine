@@ -1,7 +1,6 @@
 pandas
 numpy
-scikit-learn
-streamlit
 matplolib
 pdfminer
-pypdf
+pypdf2
+nltk
